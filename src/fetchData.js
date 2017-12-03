@@ -1,0 +1,2 @@
+export const fetchJobs = pageNo => 
+  fetch(`https://www.zippia.com/api/jobs/?title=Business%20Analyst&state=&city=&major=&useFallback=false&page_no=${pageNo}&items_per_page=40`).then(res => res.json())
